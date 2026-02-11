@@ -1,4 +1,4 @@
-# main.R - DEG analysis and meta-analysis
+# main_pipeline.R - DEG analysis and meta-analysis
 # Load Functions
 gc()
 source("functions/install_packages.R")
@@ -138,3 +138,4 @@ meta_result <- meta_rem_volcano(
   top_n = 30,
   hypothesis_min = 7
 )
+
